@@ -47,10 +47,10 @@ class MemorizeApp:
     def generate_letters(self):
         letters = []
         for _ in range(20):
-            letter = chr(random.randint(65, 90))
+            letter = chr(random.randint(65, 88)) 
             letters.append(letter)
         return letters
-    
+
      # Function to show letters with the time that user put in the time_entry textbox.
 
     def start_memorize(self):
